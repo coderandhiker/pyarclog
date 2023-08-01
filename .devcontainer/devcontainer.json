@@ -1,8 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/anaconda-postgres
 {
-	"name": "Anaconda (Python 3) & PostgreSQL",
-	"dockerComposeFile": "docker-compose.yml",
+	"name": "Anaconda Python3",
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"customizations": {
