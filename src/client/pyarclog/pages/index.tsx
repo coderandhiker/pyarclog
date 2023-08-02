@@ -6,7 +6,7 @@ function index() {
   const [appRoles, setAppRoles] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/home")
+    fetch("https://coderandhiker-laughing-fortnight-4qvvqq44vq9c7pxp-8080.preview.app.github.dev/api/home")
       .then((response) => response.json())
       .then((data) => {
           setMessage(data.message);
@@ -14,7 +14,7 @@ function index() {
   }, [])
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/roles")
+    fetch("https://coderandhiker-laughing-fortnight-4qvvqq44vq9c7pxp-8080.preview.app.github.dev/api/roles")
       .then((response) => response.json())
       .then((data) => {        
         setAppRoles(data.app_roles);
